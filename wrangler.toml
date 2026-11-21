@@ -1,0 +1,8 @@
+name = "firststephq"
+main = "src/worker.js"
+compatibility_date = "2026-11-01"
+
+routes = [
+  { pattern = "firststephq.com", custom_domain = true },
+  { pattern = "www.firststephq.com", custom_domain = true }
+]
